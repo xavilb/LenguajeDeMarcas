@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+<nodos nombre="a" IP="192.168.1.1"></nodos>
+<maquinas_virtuales nombre="ubuntu" sistema_operativo="linux"></maquinas_virtuales>
+
+
+<interfaz_viertual IP="192.168.2.2" MAC="3244324D"></interfaz_viertual>
+
+<maquinas_virtuales nombre="Windows1" sistema_operativo="Windows">
+
+
+    <interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+    
+    </maquinas_virtuales>
+<nodos nombre="b" IP="192.168.1.2"></nodos>
+
+<maquinas_virtuales nombre="ubuntu" sistema_operativo="linux"></maquinas_virtuales>
+
+
+<interfaz_viertual IP="192.168.2.2" MAC="3244324D"></interfaz_viertual>
+
+<maquinas_virtuales nombre="Windows1" sistema_operativo="Windows">
+
+
+    <interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+    
+    </maquinas_virtuales>
+<nodos nombre="c" IP="192.168.1.3"></nodos>
+
+<maquinas_virtuales nombre="ubuntu" sistema_operativo="linux"></maquinas_virtuales>
+<interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+
+
+<interfaz_viertual IP="192.168.2.2" MAC="3244324D"></interfaz_viertual>
+
+<maquinas_virtuales nombre="Windows1" sistema_operativo="Windows">
+
+
+    <interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+    
+    </maquinas_virtuales>
+<nodos nombre="d" IP="192.168.1.4"></nodos>
+
+<maquinas_virtuales nombre="ubuntu" sistema_operativo="linux"></maquinas_virtuales>
+
+
+<interfaz_viertual IP="192.168.2.2" MAC="3244324D"></interfaz_viertual>
+
+<maquinas_virtuales nombre="Windows1" sistema_operativo="Windows">
+
+
+    <interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+    <interfaz_viertual IP="192.168.2.3" MAC="3244324D"></interfaz_viertual>
+
+    
+    </maquinas_virtuales>
+
+
+
+</cluster>
