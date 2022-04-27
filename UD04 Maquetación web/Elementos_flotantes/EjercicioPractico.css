@@ -1,0 +1,64 @@
+#titulo {
+    text-align: center;
+}
+
+.BarraArriba {
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.objeto-nav {
+    display: inline-block;
+    margin: 15px;
+    width: 14%;
+}
+
+.barraIzquierda {
+    margin-top: 15px;
+    margin-left: 9%;
+}
+
+.cuadroNegro {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+    height: 417px;
+    float: left;
+    width: 180px;
+}
+
+figure{
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: -3.9px;
+
+    }
+.lodelmedio{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+.relleno{
+    margin-top: 33px;
+    margin-left: 20%;
+    width: 80%;
+
+}
+footer{
+    background-color: gray;
+    padding: 17.8px;
+    text-align: center;
+    clear: both;
+    margin-left: 2%;
+    margin-right: 2.4%;
+    margin-bottom: 1%;
+}
+
+    
+
