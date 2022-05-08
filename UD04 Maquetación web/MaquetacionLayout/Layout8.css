@@ -1,0 +1,206 @@
+body {
+    background-image: url("fondo.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: logo;
+    src: url(CuttyFruty.ttf);
+}
+
+@font-face {
+    font-family: fotografia;
+    src: url(comicSans.ttf);
+}
+
+aside img {
+    display: inline-block;
+}
+
+
+header div {
+    display: inline-block;
+}
+
+.nombre {
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: logo;
+    transform: rotate(-7deg);
+    position: fixed;
+    top: 3.5%;
+    left: 10%;
+}
+
+.logo2 {
+    color: grey;
+    font-family: fotografia;
+    font-size: medium;
+    position: fixed;
+    top: 7%;
+    left: 19%;
+}
+
+.twitter {
+    width: 1%;
+    position: absolute;
+    right: 5.8%;
+    top: 6%;
+
+}
+
+.facebook {
+    width: 1%;
+    position: absolute;
+    right: 4.7%;
+    top: 6%;
+}
+
+.google {
+    width: 1%;
+    position: absolute;
+    top: 6%;
+    right: 3.6%;
+
+}
+
+.social {
+    color: rgb(100, 100, 100);
+    font-family: fotografia;
+    font-size: small;
+    position: absolute;
+    right: 7.2%;
+    top: 5%;
+}
+
+@font-face {
+    font-family: medio;
+    src: url(QuickSand.ttf);
+}
+
+.medio p {
+    font-family: medio;
+    position: absolute;
+    display: inline-block;
+}
+
+.rojo {
+    color: red;
+    text-shadow: 1px 1px 1px red;
+    top: 29%;
+    font-size: 500%;
+    left: 10.3%;
+}
+
+.letra1 {
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    left: 10%;
+    top: 28%;
+    font-size: 322%;
+
+}
+
+.letra2 {
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    font-size: 230%;
+    top: 42%;
+    left: 10%;
+}
+
+.camara {
+    width: 23%;
+    position: absolute;
+    right: 13%;
+    top: 27%;
+    transform: rotate(2deg);
+    z-index: 10;
+}
+
+.fotografia {
+    width: 30%;
+    position: absolute;
+    right: 27%;
+    top: 20%;
+}
+
+
+
+.conjuntofotos img {
+    width: 10%;
+    display: inline-block;
+position: absolute;
+}
+.conjuntofotos p{
+    font-family: medio;
+}
+
+
+.recent{
+    color: gray;
+    position: absolute;
+    bottom: 25.8%;
+    left: 11%;
+    font-size: xx-large;
+}
+.photos{
+    color: white;
+    position: absolute;
+    bottom: 22.7%;
+    font-size:xx-large;
+    left: 11%;
+}
+.portfolio{
+    text-decoration:none;
+    font-weight:500;
+    font-size:17px;
+    color:#ffffff;
+width: 6.5%;
+padding-top: 0.7%;
+padding-bottom: 0.7%;
+    background-color:orangered;
+    text-align: center;
+    left: 11%;
+    border-radius: 5%;
+    position: absolute;
+    bottom: 19%;
+
+}
+footer {
+    text-align: center;
+    color: white;
+    font-family: fotografia;
+    clear: both;
+    font-size: x-large;
+    position: absolute;
+    border-top-style: solid;
+    border-color: gray;
+    bottom: 0;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: 10%;
+}
+.img1{
+    position: absolute;
+    left: 22%;
+    bottom: 19.5%;
+}
+.img2{
+    position: absolute;
+    left: 36%;
+    bottom: 19.5%;
+}
+.img3{
+    position: absolute;
+    left: 50%;
+    bottom: 19.5%;
+}
+.img4{
+    position: absolute;
+    left: 64%;
+    bottom: 19.5%;
+}
