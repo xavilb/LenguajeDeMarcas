@@ -1,0 +1,98 @@
+#logotipo {
+    width: 200px;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+aside img {
+    width: 20px;
+    right: 20px;
+    float: right;
+}
+
+.arriba {
+    display: inline-block;
+    position: fixed;
+    right: 4px;
+    top: 0px;
+}
+
+.buscador {
+    padding: 2%;
+}
+
+.navegador {
+    width: 20%;
+    background-color: rgb(255, 3, 129);
+    color: whitesmoke;
+    margin-left: 0%;
+    padding: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tweets {
+    float: right;
+}
+
+.mayor {
+    color: palevioletred;
+    font-size: xx-large;
+    display: inline-block;
+
+}
+
+.Os {
+    color: palevioletred;
+    text-align: center;
+    z-index: 10;
+    top: 50%;
+}
+
+.relleno {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 21px;
+    border-color: darkmagenta;
+    text-align: center;
+    width: 120px;
+
+}
+
+.relleno img {
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+
+
+}
+
+footer {
+    width: 20%;
+    background-color: rgb(255, 3, 129);
+    color: whitesmoke;
+    margin-left: 0%;
+    padding: 16px;
+    clear: both;
+    width: 100%;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+.cuadrosflotantes {
+    text-align: center;
+}
+
+.buscador img {
+    display: inline-block;
+}
