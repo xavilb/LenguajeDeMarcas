@@ -1,0 +1,218 @@
+body {
+    background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: logo;
+    src: url(CuttyFruty.ttf);
+}
+
+@font-face {
+    font-family: fotografia;
+    src: url(comicSans.ttf);
+}
+
+aside img {
+    display: inline-block;
+}
+
+
+header div {
+    display: inline-block;
+}
+
+.nombre {
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: logo;
+    transform: rotate(-7deg);
+    position: fixed;
+    top: 3.5%;
+    left: 10%;
+}
+
+.logo2 {
+    color: grey;
+    font-family: fotografia;
+    font-size: medium;
+    position: fixed;
+    top: 8%;
+    left: 20%;
+}
+
+.twitter {
+    width: 1%;
+    position: absolute;
+    right: 5.8%;
+    top: 6%;
+
+}
+
+.facebook {
+    width: 1%;
+    position: absolute;
+    right: 4.7%;
+    top: 6%;
+}
+
+.google {
+    width: 1%;
+    position: absolute;
+    top: 6%;
+    right: 3.6%;
+
+}
+
+.social {
+    color: rgb(100, 100, 100);
+    font-family: fotografia;
+    font-size: small;
+    position: absolute;
+    right: 6.9%;
+    top: 4%;
+}
+
+@font-face {
+    font-family: medio;
+    src: url(QuickSand.ttf);
+}
+
+.medio p {
+    font-family: medio;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    margin: 0px;
+    margin: -15px;
+padding: 0px;
+}
+.medioletra{
+    grid-column: 1;
+    grid-row: 3;
+
+    margin-top: 34%;
+margin-left: 10%;
+}
+
+.rojo {
+    color: red;
+    text-shadow: 1px 1px 1px red;
+    font-size: 500%;
+}
+
+.letra1 {
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    font-size: 322%;
+    margin: 0px;
+
+}
+
+.letra2 {
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    font-size: 230%;
+
+}
+
+.camara {
+        width: 50%;
+        position: absolute;
+        right: 7%;
+        top: 20%;
+        transform: rotate(2deg);
+        z-index: 10;
+    
+}
+
+.fotografia {
+    width: 60%;
+    margin-top: 8%;
+}
+
+
+
+.conjuntofotos img {
+    width: 10%;
+
+}
+
+.conjuntofotos p {
+    font-family: medio;
+}
+
+
+.recent {
+    color: gray;
+    font-size: xx-large;
+}
+
+.photos {
+    color: white;
+    font-size: xx-large;
+    margin: 0%;
+}
+
+.portfolio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #ffffff;
+    width: 88%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: -moz-linear-gradient(#ff6c00, #b71a1a);
+            text-align: center;
+    border-radius: 5%;
+    height: 22%;
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: fotografia;
+    clear: both;
+    font-size:large;
+    position: absolute;
+    border-top-style: solid;
+    border-color: gray;
+    margin-bottom: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.conjuntofotos{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.conjuntofotos p{
+    margin-top: -3%;
+    margin-left: 15%;
+    display: flex;
+    margin-bottom: 0%;
+}
+.conjuntoletras{
+    margin-top: 2%;
+}
+.conjuntofotos img{
+    width: 17%;
+margin-left: 2%;    
+}
+.img{
+    width: 92%;
+}
+
+.camaramujer{
+    grid-column: 3;
+    grid-row: 3;
+    width: 893px;
+}
+.medio{
+    display: grid;
+}
